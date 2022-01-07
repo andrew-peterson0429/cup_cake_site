@@ -14,16 +14,9 @@ let quotes = [
 
 let randomNumber = Math.floor(Math.random() * (quotes.length));
 
-document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
+document.getElementById('quoteDisplay').innerHTML = `"${quotes[randomNumber]}"`;
 
 /* function newQuote() {
     var randomNumber = randomNumber = Math.floor(Math.random() * (quotes.length));
     document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
 } */
-
-function toggleMenu() {
-    document.getElementById("hamburgerBtn").classList.toggle("open");
-    document.getElementById("primaryNav").classList.toggle("open");
-}
-var x = document.getElementById('hamburgerBtn');
-x.onclick = toggleMenu;

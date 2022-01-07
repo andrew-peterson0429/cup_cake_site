@@ -13,6 +13,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     
+    <script src="https://kit.fontawesome.com/b8d60ec4d6.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
 
@@ -27,9 +29,9 @@
         <div class="navbar-nav">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
           <a class="nav-link" href="index.html#aboutUs">About Us</a>
-          <a class="nav-link" href="#">Menu</a>
-          <a class="nav-link" href="#">Ordering</a>
-          <a class="nav-link" href="#">Contact Us</a>
+          <a class="nav-link" href="index.html#menu">Menu</a>
+          <a class="nav-link" href="index.html#ordering">Ordering</a>
+          <a class="nav-link" href="index.html#contactUs">Contact Us</a>
         </div>
       </div>
     </div>
@@ -49,7 +51,7 @@
         <div id="carouselTop" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="/images/cupcake1.jfif" class="d-block w-100" alt="...">
+                <img src="/images/cupcake1.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
                 <img src="/images/cupcake2.jpg" class="d-block w-100" alt="...">
@@ -58,14 +60,6 @@
                 <img src="/images/cupcake3.jpg" class="d-block w-100" alt="...">
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
     </div>
     
@@ -80,7 +74,7 @@
       <div id="carouselTop" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="/images/cupcake1.jfif" class="d-block w-100" alt="...">
+            <img src="/images/cupcake1.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
             <img src="/images/cupcake2.jpg" class="d-block w-100" alt="...">
@@ -89,14 +83,6 @@
             <img src="/images/cupcake3.jpg" class="d-block w-100" alt="...">
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
 
       <p>We are a family owned business that has no idea what were doing.
@@ -104,15 +90,106 @@
 
     </div>
 
-    <div class="container" id="menu">
+    <div class="container " id="menu">
       <h2>Menu</h2>
       
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+      <div class="card mx-auto" style="width: 18rem;">
+        <img src="/images/cupcake2.jpg" class="card-img-top " alt="...">
         <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p class="card-text">Classic Cupcake $2.99</p>
         </div>
       </div>
+
+      <div class="card mx-auto" style="width: 18rem;">
+        <img src="/images/cupcake3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Classic Cupcake $2.99</p>
+        </div>
+      </div>
+
+      <div class="card mx-auto" style="width: 18rem;">
+        <img src="/images/cupcake1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Classic Cupcake $2.99</p>
+        </div>
+      </div>
+
+      <div class="card mx-auto" style="width: 18rem;">
+        <img src="/images/cupcake2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Classic Cupcake $2.99</p>
+        </div>
+      </div>
+
+      <div class="card mx-auto" style="width: 18rem;">
+        <img src="/images/cupcake3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Classic Cupcake $2.99</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container" id="ordering">
+      <h2>Ordering</h2>
+
+      <p>Currently our web developer hasn't gotten our order form properly
+         intergrated, because he is an unpaid intern that is locked in the 
+         basement and has no reason to hurry, so please leave us your email and a message of 
+         what you would like ordered and we will get in contact with you.
+        </p>
+
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Your Email Address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+
+      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <button class="btn btn-primary me-md-2" type="button">Send Message</button>
+      </div>
+
+    </div>
+
+    <div class="container" id="contactUs">
+      <h2>Contact Us</h2>
+
+      <p>We are located in the middle of nowhere in North Dakota... 
+        Good luck!</p>
+      
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    
+      <p>Seriously though, you can contact us here:</p>
+
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>Watford City, ND</p>
+          </div>
+          <div class="col">
+            <i class="fas fa-phone"></i>
+            <p>123-456-7890</p>
+          </div>
+          <div class="col">
+            <i class="fas fa-envelope"></i>
+            <p>cupcake@mail.com</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container" id="footer">
+
+      <p>&copy; 2022 &bull; Cupcake Site &bull; All Rights Reserved</p>
 
     </div>
 

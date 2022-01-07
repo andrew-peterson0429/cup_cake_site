@@ -12,8 +12,10 @@ body {
 }
 
 #quoteDisplay {
+    font-size: 1.5rem;
     font-weight: bold;
     margin-top: 8rem;
+    text-align: center;
 }
 
 #aboutUs {
@@ -25,6 +27,7 @@ body {
 
 #aboutUs h2 {
     text-align: center;
+    font-weight: bold;
     margin-bottom: 2rem;
 }
 
@@ -38,4 +41,47 @@ body {
 
 #menu h2 {
     text-align: center;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+#ordering {
+    background-color: #EEEEEE;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 8rem;
+}
+
+#ordering h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+#ordering p {
+    margin-bottom: 2rem;
+}
+
+#contactUs {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 8rem;
+}
+
+#contactUs h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+#footer {
+    background-color: #e80e92;
+    height: 100px;
+    width: auto;
+}
+
+#footer p {
+    padding-top: 2rem;
+    color: #fff;
+    font-weight: bold;
 }
